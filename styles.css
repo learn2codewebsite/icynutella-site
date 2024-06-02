@@ -1,3 +1,17 @@
+/* Define the custom font for regular weight */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Killigs.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* Define the custom font for bold weight */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/custom-font-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 body {
     background-color: black;
     color: white;
@@ -6,7 +20,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'CustomFont', Arial, sans-serif; /* Use the custom font */
 }
 
 .container {
@@ -28,6 +42,7 @@ body {
 h1 {
     margin: 0;
     font-size: 2em;
+    font-weight: bold; /* Make the name bold */
 }
 
 p {
