@@ -1,7 +1,7 @@
 /* Define the custom font for regular weight */
 @font-face {
     font-family: 'CustomFont';
-    src: url('Killigs.ttf') format('truetype');
+    src: url('Killig.ttf') format('truetype');
     font-weight: normal;
 }
 
