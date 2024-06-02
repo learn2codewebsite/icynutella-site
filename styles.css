@@ -8,7 +8,7 @@
 /* Define the custom font for bold weight */
 @font-face {
     font-family: 'CustomFont';
-    src: url('fonts/custom-font-bold.ttf') format('truetype');
+    src: url('Killig.ttf.ttf') format('truetype');
     font-weight: bold;
 }
 
