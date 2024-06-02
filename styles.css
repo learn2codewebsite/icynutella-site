@@ -1,51 +1,69 @@
-/* Define the custom font for regular weight */
-@font-face {
-    font-family: 'CustomFont';
-    src: url('Killig.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/* Define the custom font for bold weight */
-@font-face {
-    font-family: 'CustomFont';
-    src: url('Killig.ttf.ttf') format('truetype');
-    font-weight: bold;
-}
-
 body {
-    background-color: black;
+    background-color: #000;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'CustomFont', Arial, sans-serif; /* Use the custom font */
+    font-family: 'Arial', sans-serif;
 }
 
 .container {
     display: flex;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
     margin-right: 20px;
 }
 
 .text-container {
-    max-width: 400px;
+    flex-grow: 1;
 }
 
 h1 {
     margin: 0;
-    font-size: 2em;
-    font-weight: bold; /* Make the name bold */
+    font-size: 1.5em;
+    font-family: 'CustomFont', Arial, sans-serif;
 }
 
-p {
-    margin-top: 10px;
+.status {
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-family: 'CustomFont', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: limegreen;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.join-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
     font-size: 1em;
+    font-family: 'CustomFont', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.join-button:hover {
+    background-color: #27ae60;
 }
