@@ -11,7 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'CustomFont', sans-serif; /* Apply the custom font */
+    font-family: 'Killigs.ttf', sans-serif; /* Apply the custom font */
 }
 
 .container {
