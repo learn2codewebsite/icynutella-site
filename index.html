@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Profile</title>
+    <title>Discord Join Example</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <img src="icy.png" alt="Profile Picture" class="profile-picture">
         <div class="text-container">
-            <h1>IcyNutella</h1>
-            <p>Youtuber.</p>
+            <h1>Your Server Name™</h1>
+            <div class="status">
+                <span class="status-dot"></span> <span id="online-members">Loading...</span> ONLINE • <span id="total-members">Loading...</span> MEMBERS
+            </div>
         </div>
+        <button class="join-button">JOIN</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
