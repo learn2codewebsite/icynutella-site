@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('your-font.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     color: white;
@@ -6,7 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'CustomFont', sans-serif; /* Apply the custom font */
 }
 
 .container {
@@ -19,10 +24,12 @@ body {
     width: 150px;
     height: 150px;
     margin-right: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Outer glow effect */
 }
 
 .text-container {
     max-width: 400px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Outer glow effect */
 }
 
 h1 {
